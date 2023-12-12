@@ -165,7 +165,7 @@ if ( ! empty( $tc_interest_rate ) ) {
 							}
 
 							$total_with_tax = $installment_with_interest * $i;
-							$total_label    = $i > 1 ? " (R$ " . wc_price( $total_with_tax ) . ")" : "";
+							$total_label    = $i > 1 ? " (" . wc_price( $total_with_tax ) . ")" : "";
 							?>
 
                             <option value="<?php echo $i; ?>"><?php printf( '%dx de %s %s', $i,
